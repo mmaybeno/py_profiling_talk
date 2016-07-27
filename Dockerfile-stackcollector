@@ -1,0 +1,7 @@
+FROM mmaybeno/nylas-perft-demo:latest 
+RUN mkdir -p /var/lib/stackcollector
+RUN mkdir -p /app
+ADD . /app
+WORKDIR /nylas-perftools/stackcollector
+EXPOSE 8001
+ENTRYPOINT ["/bin/bash", "/app/stack_collector_entry.sh"]

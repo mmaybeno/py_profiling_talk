@@ -1,0 +1,12 @@
+version: '2'
+services:
+  flask-demo:
+    build: .
+    image: mmaybeno/flask-demo:latest 
+    ports:
+      - 8000:8000
+  stackcollector-demo:
+    build: .
+    image: mmaybeno/stackcollector-demo:latest 
+    ports:
+      - 8001:8001
