@@ -1,5 +1,6 @@
 # Quick profiling talk
 
+[July 2016 SD Python Meetup Talk](https://docs.google.com/presentation/d/14w7kL1sgsND5zJBA-EY3W-dxAren2vq3SP2OCHS4pM0/edit?usp=sharing)  
 Based off blog post from [nylas](https://www.nylas.com/blog/performance)  
 Simple talk about local profiling and simple solution for profiling web apps.
 
